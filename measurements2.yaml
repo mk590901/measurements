@@ -1,0 +1,8 @@
+name: Measurements
+entrypoint: measurements2.toit
+triggers:
+    on_install: true
+pubsub:
+    subscriptions:
+    - "cloud:demo/ping"
+ 
